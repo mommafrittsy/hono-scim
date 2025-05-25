@@ -1,0 +1,11 @@
+{
+  "name": "@mommafrittsy/hono-scim",
+  "version": "1.0.0",
+  "exports": {
+    "." : "./mod.ts"
+  },
+  "imports": {
+    "@hono": "jsr:@hono/hono@^4.7.10",
+    "@mongoose": "npm:mongoose@^8.15.0"
+  }
+}
